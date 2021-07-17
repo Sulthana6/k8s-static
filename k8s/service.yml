@@ -1,9 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
+<<<<<<< HEAD
   name: service
   namespace: static
 
+=======
+  name: k8s-static-svc
+  namespace: static
+>>>>>>> f02f9cd705fb838c776d40c7c5f45e9e16c56d09
 spec:
   type: LoadBalancer
   selector: 
@@ -12,3 +17,8 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+<<<<<<< HEAD
+=======
+  type: LoadBalancer
+  
+>>>>>>> f02f9cd705fb838c776d40c7c5f45e9e16c56d09

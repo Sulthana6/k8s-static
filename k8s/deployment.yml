@@ -1,10 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+<<<<<<< HEAD
   name: deployment
   namespace: static
   labels:
     app: static
+=======
+  name: k8s-static
+  namespace: static
+>>>>>>> f02f9cd705fb838c776d40c7c5f45e9e16c56d09
 spec:
   replicas: 1
   selector:
@@ -20,4 +25,7 @@ spec:
         image: 663461323242.dkr.ecr.us-east-2.amazonaws.com/k8s-static:1 
         ports:
         - containerPort: 80
+<<<<<<< HEAD
 
+=======
+>>>>>>> f02f9cd705fb838c776d40c7c5f45e9e16c56d09
