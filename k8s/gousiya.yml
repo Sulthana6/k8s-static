@@ -9,7 +9,7 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: static
+  name: static-k8s
   namespace: static
 spec:
   selector:
@@ -36,7 +36,7 @@ metadata:
   namespace: static
 spec:
   selector:
-    app: static
+    app: static-k8s
   ports:
     - protocol: TCP
       port: 80
