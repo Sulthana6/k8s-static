@@ -9,7 +9,7 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: k8s-static
+  name: static
   namespace: static
 spec:
   selector:
