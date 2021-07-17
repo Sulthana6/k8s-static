@@ -54,7 +54,7 @@ metadata:
    kubernetes.io/ingress.class: nginx
 spec:
  rules:
- - host: static..sulthana.xyz
+ - host: static.sulthana.xyz
    http:
      paths:
      - path:
